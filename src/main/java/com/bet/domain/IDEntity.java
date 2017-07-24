@@ -23,7 +23,7 @@ public class IDEntity {
     @Column(columnDefinition = " timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP")
     protected Date createAt;
 
-    @Column(columnDefinition = " timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP")
+    @Column(columnDefinition = " timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP")
     protected Date updateAt;
 
     public Long getId() {
